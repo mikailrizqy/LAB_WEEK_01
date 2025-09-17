@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Theme.LAB_WEEK_01" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Warna utama aplikasi -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <!-- Background activity -->
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <!-- Style untuk TextInputLayout -->
+    <style name="text_input" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <!-- Style untuk Button -->
+    <style name="button">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Style untuk TextView -->
+    <style name="text_display" parent="@style/TextAppearance.MaterialComponents.Body1">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <!-- Style untuk margin layar -->
+    <style name="screen_margin">
+        <item name="android:layout_margin">12dp</item>
+    </style>
+
+</resources>
